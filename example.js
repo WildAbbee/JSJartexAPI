@@ -39,4 +39,4 @@ experience (experience, reset to 0 upon level up)
 percentage (how close is the player to levelling up)
 prefix (this is the minecraft prefix, for example "&8[&bDiamond&8]&b " for diamond rank)
 */
-console.log(player.username + "'s prefix is &8[" + player.level + "] " + player.prefix);
+console.log(player.prefix + " " + player.usename + " &8[" + player.level + "]");
